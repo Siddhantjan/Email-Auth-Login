@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:elevation="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textAllCaps="true"
+            android:textAlignment="center"/>
+
+            <EditText
+                android:background="#FAF9F6"
+                android:id="@+id/email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Enter your mail address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="#D3D3D3"
+                android:textSize="22sp" />
+
+            <EditText
+                android:inputType="textPassword"
+                android:background="#FAF9F6"
+                android:textColorHint="#D3D3D3"
+                android:textColor="@color/black"
+                android:layout_marginTop="14dp"
+                android:hint="Enter your Password"
+                android:id="@+id/mail_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/loginBtn"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Click to Enter"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#D3D3D3"
+                android:layout_margin="8dp"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you New User ?"/>
+            <TextView
+                android:id="@+id/register_activity"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:textAllCaps="true"
+                android:layout_margin="8dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

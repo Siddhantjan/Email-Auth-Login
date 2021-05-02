@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:elevation="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let's start to register your account"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:inputType="textPersonName"
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Enter your Full Name"
+                android:textColor="@color/black"
+                android:textColorHint="#D3D3D3"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/register_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:hint="Enter your mail address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="#D3D3D3"
+                android:textSize="16sp" />
+
+            <EditText
+                android:inputType="textPassword"
+                android:textColorHint="#D3D3D3"
+                android:textColor="@color/black"
+                android:layout_marginTop="14dp"
+                android:hint="Enter your Password"
+                android:id="@+id/register_mail_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+            <EditText
+                android:inputType="textPassword"
+                android:textColorHint="#D3D3D3"
+                android:textColor="@color/black"
+                android:layout_marginTop="14dp"
+                android:hint="Re Enter your Password"
+                android:id="@+id/mail_password_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+            <Button
+                android:id="@+id/registerBtn"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Click to Register"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_margin="8dp"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you existing User ?"/>
+            <TextView
+                android:id="@+id/login_activity"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:textAllCaps="true"
+                android:layout_margin="8dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

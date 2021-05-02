@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708559258505",
+    "project_id": "taskappforintern",
+    "storage_bucket": "taskappforintern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708559258505:android:79fd64604d97b85258d758",
+        "android_client_info": {
+          "package_name": "com.example.taskappforintern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708559258505-e2g91b3t604ecucd2v74f4rv2k55f5f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIVtVMAtSLJ1tWWcqoi-li-zgB3Bz1aas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708559258505-e2g91b3t604ecucd2v74f4rv2k55f5f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
